@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0em auto;
+    padding: 50px;
+    
+}
+
+/* 
+*************************
+       HEADER
+************************* */
+
+header{
+  border: 2px solid green;
+  padding-top: 20px 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+    
+}
+
+.list{
+    
+    display: flex;
+
+}
+.list-item{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+   /* 
+*************************
+       HERO SECTION
+************************* */ 
+.hero-section{
+    background-image: url('../images/hero-image.jpg');
+    background-size: cover;
+    padding: 15em 0;
+    /* height: 900px; */
+}
+
+.hero-items{
+   
+    margin-right: 3em;
+   
+}
+
+.hero-items h1{
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+.hero-items > h1 + p{
+    color: white;
+}
+
+.btn{
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    padding: .2em 1em;
+}
