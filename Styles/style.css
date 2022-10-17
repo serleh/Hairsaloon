@@ -20,8 +20,8 @@ body{
 ************************* */
 
 header{
-  border: 2px solid green;
-  padding-top: 20px 0;
+  
+  padding: 1em 0;
 
 }
 
@@ -58,7 +58,7 @@ header{
     background-image: url('../images/hero-image.jpg');
     background-size: cover;
     padding: 15em 0;
-    /* height: 900px; */
+    
 }
 
 .hero-items{
@@ -82,4 +82,77 @@ header{
     color: #fff;
     display: inline-block;
     padding: .2em 1em;
+    cursor: pointer;
 }
+
+/* 
+*************************
+       VISIT SECTION
+************************* */
+
+.visit-section{
+   
+    margin-top: -17.5em;
+}
+
+.visit-section-items{
+    background-color: #000;
+    color: #fff;
+    width:25%;
+    padding: 1.5em;
+   
+}
+
+.btn-2{
+    background-color: #fff;
+    color: #000;
+}
+
+/* 
+*************************
+       SERVICES SECTION
+************************* */
+
+
+
+.services-section-item{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-section-item div{
+   
+    text-align: center;
+    margin: 1em;
+}
+
+
+/* 
+*************************
+       MOMENTUM SECTION
+************************* */
+
+.momentum-section{
+    padding: 2em;
+    background-color: gray;
+}
+
+
+.momentum-section-item{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.momentum-section-item div{
+    margin: 1em;
+    padding: 2em;
+}
+
+.momentum-section-item div + div{
+    background-image: url('../images/Home3-Video.jpg');
+    width: 50%;
+    text-align: center;
+}
+
