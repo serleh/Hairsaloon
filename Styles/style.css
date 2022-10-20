@@ -156,3 +156,112 @@ header{
     text-align: center;
 }
 
+
+/* 
+*************************
+       STYLERS SECTION
+************************* */
+
+.stylers-pic{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.stylers-pic div{
+    margin: 1em;
+    text-align: center;                 
+   
+}
+
+.stylers-pic .btn{
+    margin-top: -2em;
+}
+
+/* 
+*************************
+       offfer SECTION
+************************* */
+
+
+.offer-section{
+    background-image: url('../images/Promo-Banner-Image.jpg');
+}
+
+.offer-section div{
+  
+    padding: 5em;
+}
+
+.offer-section span{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+/* 
+*************************
+       offfer SECTION
+************************* */
+
+.lookbook{
+    text-align: center;
+    padding: 1.5em;
+}
+
+
+
+.gallery-container {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
+
+
+.left, .middle, .right {
+    width: 33%;
+  }
+  
+  .one, .four, .five {
+    height: 400px;
+  }
+  
+  .two, .three, .six {
+    height: 600px;
+  }
+
+
+.one {
+    background-image: url("../images/Gallery-01-150x150.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .two {
+    background-image: url("../images/Gallery-02-150x150.jpg");
+    background-size: cover;
+  }
+  
+  .three {
+    background-image: url("../images/Gallery-03-150x150.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .four {
+    background-image: url("../images/Gallery-04-150x150.jpg");
+    background-size: cover;
+  }
+  
+  .five {
+    background-image: url("../images/Gallery-05-150x150.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .six {
+    background-image: url("../images/Gallery-06-150x150.jpg");
+    background-size: cover;
+  }
